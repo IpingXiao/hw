@@ -25,5 +25,7 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.8
+      - name: Install dependencies
+        run: cd ${{ github.workspace }} && pip install -r ./requirements.txt
       - name: Test with Python
-        run: cd ${{ github.workspace }}/week14/pyci && python ./test_main.py
+        run: cd ${{ github.workspace }} && python ./test_main.py
