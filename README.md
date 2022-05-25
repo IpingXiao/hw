@@ -6,11 +6,10 @@
 
 ## 作业步骤：
 
-1. 在 Github 仓库里面新建一个 .github/workflows 目录，再新建一
-个 github-actions-demo.yml 文件。
+1. 在 Github 仓库里面新建一个 .github/workflows 目录，再新建一个 github-actions-demo.yml 文件。
 ![](images/1.png)
 
-2. 在.yml文件中输入内容[具体内容](https://github.com/IpingXiao/hw/blob/master/.github/workflows/github-actions-demo.yml)
+2. 在.yml文件中输入内容([具体内容](https://github.com/IpingXiao/hw/blob/master/.github/workflows/github-actions-demo.yml))
 ![](images/2.png)
 
 3. 向Github仓库添加main.py、requirements.txt和test_main.py代码
